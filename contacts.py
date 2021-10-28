@@ -14,6 +14,8 @@ from sqlite3 import connect
 #         """
 #     )
 
+#The codes commented above create a database and a table inside it called contacts.
+
 commands = ['add', 'list', 'search']
 if len(sys.argv) != 2:
     sys.exit("You've given more than one input")
